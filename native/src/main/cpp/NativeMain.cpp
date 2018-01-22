@@ -1,8 +1,6 @@
 #include "NativeMain.h"
 #include "Example.h"
 
-NativeProc* NativeProc::mNativeProc;
-
 void NativeProc::initialize()
 {
     return;

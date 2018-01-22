@@ -42,7 +42,7 @@ Build and Install
 ``` 
 
 - The build above would download a lot of dependent libraries. If you get the time-out warnings/errors,
-  please save this proxy settings as "setting.xml" under ${HOME}/.m2/
+  please save this proxy settings as "settings.xml" under ${HOME}/.m2/
 ```
     <settings>
       <proxies>

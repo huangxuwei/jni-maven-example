@@ -7,9 +7,7 @@ class NativeProc {
 public:
     static NativeProc* getInstance()
     {
-        if (mNativeProc == NULL) {
-            mNativeProc = new NativeProc();
-        }
+        static NativeProc* mNativeProc = new NativeProc();
         return mNativeProc;
     }
 
@@ -20,9 +18,6 @@ public:
 private:
     NativeProc() {}
     ~NativeProc() {}
-
-private:
-    static NativeProc* mNativeProc;
 };
 
 #endif
